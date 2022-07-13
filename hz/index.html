@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <button class="toggle">Toggle</button>
+    <p class="one" data="Hello">Text</p> -->
+
+    <p>Выберите тип бензина</p>
+    <input type="text" class="gallons">
+    <div>
+        <button class="gas" data="2">A 92</button>
+        <button class="gas" data="3">A 95</button>
+        <button class="gas" data="4">A 98</button>
+    </div>
+    <div class="test">Some text</div>
+    <hr>
+
+    <p>Task1<br>
+        При нажатии на кнопку, функция присваивает блоку ширину 200px и высоту 90px</p>
+    <button class="b-1">Get 1</button>
+    <div class="out-1"></div>
+    <hr>
+    <p>Task2<br>
+        При нажатии на кнопку, функция присваивает блоку класс .bg-orange</p>
+    <button class="b-2">Get 2</button>
+    <div class="out-2"></div>
+    <hr>
+    <p>Task3<br>
+        При нажатии на кнопку .b-3, функция удаляет у блока .out-3 класс .bg-orange</p>
+    <button class="b-3">Get 3</button>
+    <div class="out-3 bg-orange"></div>
+    <hr>
+    <p>Task4<br>
+        При нажатии на кнопку .b-4, функция которая делает toggle класса .bg-orange для блока .out-4</p>
+    <button class="b-4">Get 4</button>
+    <div class="out-4 "></div>
+    <hr>
+    <p>Task5<br>
+        При нажатии на кнопку, функция проверяет наличие класса .bg-orange у блока .out-4.
+        Результат - true или false вывести в .out-5</p>
+    <button class="b-5">Get 5</button>
+    <div class="out-5 "></div>
+    <hr>
+    <p class="p-6">Task6<br>
+        При нажатии на кнопку, функция выводит в .out-6 количество параграфов с классом .p-6</p>
+    <button class="b-6">Get 6</button>
+    <div class="out-6"></div>
+    <hr>
+    <p>Task 7<br>
+        По нажатию кнопки запускайте функцию, которая присваивает блокам .out-7 класс .bg-orange.
+        Обратите внимание, что данных блоков больше одного, следовательно нужен цикл.</p>
+    <button class="b-7">Get 7</button>
+    <div class="out-7">Block 1</div>
+    <div class="out-7">Block 2</div>
+    <div class="out-7">Block 3</div>
+    <hr>
+    <p>Task 8<br>
+        По нажатию кнопки запускайте функцию, которая делает toggle блокам .out-8 класс .bg-orange.
+        Обратите внимание, что данных блоков больше одного, следовательно нужен цикл.</p>
+    <button class="b-8">Get 8</button>
+    <div class="out-8"></div>
+    <hr>
+    <p>Task 9<br>
+        Усложним предыдущие задачи. С помощью цикла повесим на блоки .out-9 событие клик.
+        По клику должна выполняться функция.
+        Функция, должна добавлять класс .bg-orange тому .out-9 на котором кликнули.</p>
+    <button class="b-9">Get 9</button>
+    <div class="out-9"></div>
+    <hr>
+    <p>Task 10<br>
+        Усложним предыдущие задачи. С помощью цикла ловим на блоки .out-10 событие клик.
+        По клику должна выполняться функция.
+        Функция, должна делать toggle класса .bg-orange тому .out-10 на котором кликнули.</p>
+    <button class="b-10">Get 10</button>
+    <div class="out-10"></div>
+    <hr>
+    <p>Task 11<br>
+        Кнопка запускает функцию. Функция создает через createElement div
+        c текстом 25 и добавляет его через append в .out-11.</p>
+    <button class="b-11">Get 11</button>
+    <div class="out-11"></div>
+    <hr>
+    <p>Task 12<br>
+        Добавьте кнопку, которая запускает функцию. Функция создает через createElement div
+        c текстом 12 и добавляет ему класс bg-12. Созданный div добавляется в out-12.</p>
+    <button class="b-12">Get 12</button>
+    <div class="out-12"></div>
+    <hr>
+    <p>Task 13<br>
+        Кнопка запускает функцию. Функция создает через createElement div c текстом pushMe
+        и добавляет ему класс bg-orange. Также, созданному div добавляется событие onclick,
+        по которому выполняется функция f13_1. Созданный div добавляется в .out-13.</p>
+    <button class="b-13">Get 13</button>
+    <div class="out-13"></div>
+    <hr>
+    <p>Task 14<br>
+        Кнопка запускает функцию. Функция создает через createElement div
+        c текстом 14 и добавляет ему класс .bg-orange. Созданный div добавляется в .out-14 с помощью append.</p>
+    <button class="b-14">Get 14</button>
+    <div class="out-14"></div>
+    <hr>
+    <p>Task 15<br>
+        Кнопкa запускает функцию. Функция создает через createElement div
+        c текстом 15 и добавляет ему класс .bg-orange. Созданный div добавляется перед .out-15 с помощью before.</p>
+    <button class="b-15">Get 15</button>
+    <div class="out-15"></div>
+    <hr>
+    <p>Task 16<br>
+        Кнопкa запускает функцию. Функция создает через createElement div
+        c текстом 16 и добавляет ему класс .bg-orange. Созданный div добавляется после .out-16 с помощью after</p>
+    <button class="b-16">Get 16</button>
+    <div class="out-16"></div>
+    <hr>
+    <p>Task 17<br>
+        Кнопкa запускает функцию. Функция создает через createElement div
+        c текстом 17 и добавляет ему класс .bg-orange. Созданный div заменяет .out-17 с помощью replaceWith.</p>
+    <button class="b-17">Get 17</button>
+    <div class="out-17"></div>
+    <hr>
+    <p>Task 18<br>
+        Кнопкa запускает функцию. Функция с помощью getAttribute
+        получает data-b атрибут с параграф .p-18 и выводит в .out-18.</p>
+    <button class="b-18">Get 18</button>
+    <div class="out-18"></div>
+    <hr>
+    <p>Task 19<br>
+        Кнопкa запускает функцию. Функция с помощью getAttribute
+        получает data-b атрибут с параграфов p-19 и выводит в .out-19 через пробел.
+        Обратите внимание, что элементов .p-19 больше одного.</p>
+    <button class="b-19">Get 19</button>
+    <div class="out-19"></div>
+    <hr>
+    <p>Task 20<br>
+        Кнопкa запускает функцию. Функция с помощью setAttribute
+        присваивает атрибут title="go" в div.out-20. Обращаю ваше внимание - увидеть атрибут
+        можно только в с помощью инструментов веб разработчика.</p>
+    <button class="b-20">Get 20</button>
+    <div class="out-20"></div>
+    <hr>
+
+    <script src="script.js"></script>
+</body>
+</html>
