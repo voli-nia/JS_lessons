@@ -351,7 +351,7 @@ getBtn15.onclick = () => {
 }
 
 
-// Task 16 NOT DONE!!!
+// Task 16
 // Впишите в переменную a16 массив, который соответствует всем условиям приведенным ниже ( все console.log должны дать true;
 
 let getBtn16 = document.querySelector('.b-16');
@@ -372,7 +372,7 @@ getBtn16.onclick = () => {
 }
 
 
-// Task 17 NOT DONE!!!
+// Task 17
 // Впишите в переменную a17 массив, который соответствует всем условиям приведенным ниже ( все console.log должны дать true;
 
 let getBtn17 = document.querySelector('.b-17');
@@ -393,7 +393,7 @@ getBtn17.onclick = () => {
 }
 
 
-// Task 18 NOT DONE!!!
+// Task 18
 // Впишите в переменную a18 массив, который соответствует всем условиям приведенным ниже ( все console.log должны дать true;
 
 let getBtn18 = document.querySelector('.b-18');
@@ -415,7 +415,7 @@ getBtn18.onclick = () => {
 }
 
 
-// Task 19 NOT DONE!!!
+// Task 19
 // Впишите в переменную a19 массив, который соответствует всем условиям приведенным ниже ( все console.log должны дать true;
 
 let getBtn19 = document.querySelector('.b-19');
@@ -435,7 +435,7 @@ getBtn19.onclick = () => {
 }
 
 
-// Task 20 NOT DONE!!!
+// Task 20
 // Впишите в переменную a20 массив, который соответствует всем условиям приведенным ниже ( все console.log должны дать true;
 
 let getBtn20 = document.querySelector('.b-20');
